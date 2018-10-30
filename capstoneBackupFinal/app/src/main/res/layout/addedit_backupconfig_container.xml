@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Backup Config Add/Edit View container -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.adnd.capstonebackupfinal.ui.AddBackupConfigFragment">
+
+    <!-- This fragment layout displays the fields
+            for 'New'/'Edit' BackupConfig -->
+
+    <!-- Name of 'Backup Config' -->
+    <TextView style="@style/HeaderText"
+        android:text="@string/label_name"
+    />
+
+    <EditText style="@style/UserInputField"
+        android:id="@id/name_userinput_et"
+        android:hint="@string/userinput_hint_backupconfig_name"
+    />
+
+    <!-- Description of 'Backup Config' -->
+    <TextView style="@style/HeaderText"
+        android:text="@string/label_description"
+    />
+
+    <EditText style="@style/UserInputField"
+        android:id="@id/desc_userinput_et"
+        android:hint="@string/userinput_hint_backupconfig_description"
+    />
+
+    <!-- Source Path of 'Backup Config' -->
+    <TextView style="@style/HeaderText"
+        android:text="@string/label_srcPath"
+    />
+
+    <TextView style="@style/PathField"
+        android:id="@id/srcPath_userinput_et"
+        android:hint="@string/userinput_hint_backupconfig_source_path"
+    />
+
+    <!-- A small divider -->
+    <View style="@style/SmallHorizontalDivider" />
+
+    <!-- Destination Path of 'Backup Config' -->
+    <TextView style="@style/HeaderText"
+        android:text="@string/label_destPath"
+    />
+
+    <TextView style="@style/PathField"
+        android:id="@id/destPath_userinput_et"
+        android:hint="@string/userinput_hint_backupconfig_destination_path"
+    />
+
+    <!-- A small divider -->
+    <View style="@style/SmallHorizontalDivider" />
+
+</LinearLayout>

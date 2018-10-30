@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.adnd.capstonebackupfinal.ui.FileNavigationFragment">
+
+    <!-- This fragment layout displays the file explorer
+     navigation -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- Back Btn for Storage Navigation -->
+        <Button
+            android:id="@+id/fileNavigationHistoryBackBtn"
+            android:text="Back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimaryLight"
+            />
+
+        <!-- 'Bread crumbs' for current Directory -->
+        <TextView
+            android:id="@+id/fileNavigationBreadcrumbBarTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:padding="5dp"
+            tools:text="/sdcard/path/to/a/file"
+            />
+
+        <!-- 'Close'/'X' Btn for Storage Navigation -->
+        <Button
+            android:id="@+id/fileNavigationCloseBtn"
+            android:text="Close (X)"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorPrimaryLight"
+            />
+    </LinearLayout>
+
+    <!-- Files/Folders -->
+    <com.adnd.capstonebackupfinal.ui.FileRecyclerView
+        android:id="@id/files_listview"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <!-- Empty view is only visible when the list has no items. -->
+    <TextView
+        android:id="@android:id/empty"
+        android:text="@string/no_files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:padding="5dp"
+        />
+
+    <!-- Loading icon -->
+    <ProgressBar
+        android:id="@id/loading_indicator"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+</LinearLayout>

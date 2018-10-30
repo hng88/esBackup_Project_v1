@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">CapstoneBackupFinal</string>
+    <string name="appbar_title_new_backupconfig">New Backup Config</string>
+    <string name="appbar_title_edit_backupconfig">Edit Backup Config</string>
+    <string name="header_fileexplorernavigation">FileExplorerNav</string>
+    <string name="no_files">No Files</string>
+    <string name="btn_label_create">Create</string>
+    <string name="label_name">Name:</string>
+    <string name="label_description">Description:</string>
+    <string name="label_srcPath">Source Path:</string>
+    <string name="label_destPath">Destination Path:</string>
+    <string name="toast_createbackupconfig_userinput_invalid">Invalid specifications for the Backup Configuration.  Cannot create.</string>
+    <string name="toast_createbackupconfig_success">Successfully created Backup Configuration.</string>
+    <string name="toast_createbackupconfig_failed">BackupConfig already exists!</string>
+    <string name="no_backup_configurations_exist">No Backup Configurations exist.</string>
+    <string name="btn_label_backup">Backup</string>
+    <string name="edit_backupconfig_title">Edit Backup Config</string>
+    <string name="btn_label_update">Update</string>
+    <string name="toast_updatebackupconfig_success">Successfully updated Backup Configuration.</string>
+    <string name="toast_updatebackupconfig_failed">BackupConfig already exists!</string>
+    <string name="toast_updatebackupconfig_userinput_invalid">Invalid specifications for the Backup Configuration.  Cannot update.</string>
+    <string name="action_delete">Delete</string>
+    <string name="delete_dialog_msg">Delete this BackupConfig?</string>
+    <string name="delete">Erase</string>
+    <string name="cancel">Cancel</string>
+    <string name="toast_remove_backupconfig">Deleted Backup Configuration.</string>
+    <string name="userinput_hint_backupconfig_name">Name</string>
+    <string name="userinput_hint_backupconfig_description">-my Backup</string>
+    <string name="userinput_hint_backupconfig_source_path">/root/docs/file</string>
+    <string name="userinput_hint_backupconfig_destination_path">/root/docs/backup/</string>
+    <string name="toast_no_externalstoragevolume_found">No external storage volume found.</string>
+    <string name="toast_failed_retrieve_filepath">Failed to retrieve the Source Path/Destination Path.</string>
+    <string name="dialog_btn_ok">OK</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+    <string name="dialog_title_choosepath">Choose Path</string>
+    <string name="dialog_choice_src">Set Source</string>
+    <string name="dialog_choice_dest">Set Destination</string>
+    <string name="toast_backupbtn_backup_complete">Successfully backed up BackupConfig:</string>
+    <string name="toast_backupbtn_backup_fail">Failed to backup.</string>
+    <string name="settings_title">BackupConfig Settings</string>
+    <string name="settings_backup_by_key" translatable="false">backup_by</string>
+    <string name="settings_backup_by_default" translatable="false">@string/settings_backup_by_overwrite_value</string>
+    <string name="settings_backup_by_overwrite_value" translatable="false">overwrite</string>
+    <string name="settings_backup_by_overwrite_label">Overwrite/Replace File(s)</string>
+    <string name="settings_backup_by_rename_value" translatable="false">rename</string>
+    <string name="settings_backup_by_rename_label">Rename File(s) (append Date to File name)</string>
+    <string name="settings_backup_by_label">Backup By</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="widget_appname_title_header">@string/app_name</string>
+    <string name="widget_list_lastbackedup_date_null">N/A</string>
+    <string name="widget_list_lastbackedup_date_header">Last Backed Up:</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="toast_userexception_storage_not_readable_writable">Backup failed. External storage not readable/writable.</string>
+    <string name="toast_userexception_source_dest_not_found">Backup failed. Source/Dest file(s)/folder missing.</string>
+    <string name="toast_userexception_no_free_space">Backup failed. Insufficient disk space.</string>
+    <string name="toast_userexception_max_filesize_exceed">Backup failed. File > 100 MB.</string>
+    <string name="toast_userexception_backuptype_setting_invalid">Backup failed. Backup type setting invalid.</string>
+    <string name="toast_progressdialog_backingup">Backing up...</string>
+    <string name="toast_permission_readwritestorage_granted">Read/Write External Storage Permission Granted.</string>
+    <string name="toast_permission_readwritestorage_denied">Read/Write External Storage Permission Denied.</string>
+    <string name="toast_permissions_denied_need_settings_enable">Read/Write External Storage Permission Denied. Must enable in Settings.</string>
+</resources>

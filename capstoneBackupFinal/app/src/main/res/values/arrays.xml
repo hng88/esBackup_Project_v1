@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_backup_by_labels">
+        <item>@string/settings_backup_by_overwrite_label</item>
+        <item>@string/settings_backup_by_rename_label</item>
+    </string-array>
+
+    <string-array name="settings_backup_by_values">
+        <item>@string/settings_backup_by_overwrite_value</item>
+        <item>@string/settings_backup_by_rename_value</item>
+    </string-array>
+</resources>

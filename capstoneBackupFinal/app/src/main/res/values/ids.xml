@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <id type="id" name="backupconfigdetail_container" />
+    <id type="id" name="backupconfig_linear_layout" />
+    <id type="id" name="filenavigation_container" />
+    <id type="id" name="name_userinput_et"/>
+    <id type="id" name="desc_userinput_et"/>
+    <id type="id" name="srcPath_userinput_et"/>
+    <id type="id" name="destPath_userinput_et"/>
+    <id type="id" name="create_backupconfig_btn"/>
+    <id type="id" name="backupconfigs_listview"/>
+    <id type="id" name="loading_indicator"/>
+    <id type="id" name="update_backupconfig_btn"/>
+    <id type="id" name="files_listview" />
+    <id type="id" name="widget_listview" />
+</resources>
